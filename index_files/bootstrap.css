@@ -10,6 +10,11 @@ html {
     -ms-text-size-adjust: 100%
 }
 
+p {
+    text-indent: 5%;
+    padding-bottom: 1%;
+}
+
 body {
     margin: 0;
 }
@@ -60,6 +65,11 @@ h1 {
 #jumbotext {
     color: #fff;
     text-align: center;
+}
+#jumbotexttour {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
 }
 
 mark {
@@ -5155,6 +5165,11 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
     border-color: #ddd
 }
 
+.aboutheader {
+    font-size: 30px;
+    padding-bottom: 2%
+}
+
 .pagination-lg>li>a, .pagination-lg>li>span {
     padding: 10px 16px;
     font-size: 18px;
@@ -5363,6 +5378,47 @@ a.badge:focus, a.badge:hover {
       rgba(0, 0, 0, 0.5)
     ),
     url("https://arts.byu.edu/wp-content/uploads/2016/06/Symphony-Orchestra-1140x600-1024x539.jpg");
+}
+.schedulejumbotron {
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    height: 28vh;
+    border-radius: 6px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://csosoundsandstories.org/wp-content/uploads/CSOBrass_047-980x520.jpg");
+}
+.aboutjumbotron {
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 1%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    height: 28vh;
+    border-radius: 6px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://music.uchicago.edu/sites/music.uchicago.edu/files/styles/galleryimage/public/uploads/images/20151122_Concert_3933.jpg?itok=uMHDbucY");
+}
+.sidetron {
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 1%;
+    margin-bottom: 5%;
+    height: 80vh;
+    border-radius: 6px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://i.ytimg.com/vi/set-whRMPGc/maxresdefault.jpg");
 }
 
 .jumbotron .h1, .jumbotron h1 {
